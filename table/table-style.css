@@ -1,0 +1,15 @@
+@charset "UTF-8";
+img{width: 140px;
+}
+table{
+    background-color: honeydew;
+
+    ;
+}
+tr th,td,table{
+    border: solid  0.8px;
+    border-collapse: collapse;
+}
+thead{
+    background-color: antiquewhite;
+}
