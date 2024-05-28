@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.back-color {
+    background-color: azure;
+    border: 2px solid palegoldenrod;
+}
+
+span {
+    border: solid 2px cadetblue;
+    background-color: aliceblue;
+}
+
+.green-str{
+    color: #1ae038;
+}
+#blue-str{
+    color:blue;
+}
