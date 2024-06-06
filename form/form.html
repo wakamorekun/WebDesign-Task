@@ -21,7 +21,7 @@
             <span>電話番号</span>:<input type="tel" name="tel"><br>
             <span>生年月日</span>:<input type="date" name="birthday" value="1990-01-01"><br>
             <span>年齢</span>:<input type="number" name="age" min="0" max="150">歳<br>
-            <label></span>性別</span>:<input type="radio" name="gender" value="0">男</label>
+            <label><span>性別</span>:<input type="radio" name="gender" value="0">男</label>
             <label><input type="radio" name="gender" value="1">女</label>
             <label><input type="radio" name="gender" value="2">その他</label><br>
         </fieldset>
@@ -41,11 +41,12 @@
         </fieldset>
         <fieldset>
             <legend>利用規約</legend>
-            <a href="terms.html">利用規約を確認する</a><br>
-            <input type="checkbox" name="terms" value="agree">利用規約に同意する
+            <a href="terms.html" target="_blank">利用規約を確認する</a><br>
+            <label><input type="checkbox" name="terms" value="agree">利用規約に同意する</label>
         </fieldset>
         <button type="reset">内容をクリア</button>
         <button type="submit">確認</button>
+    </form>
 </body>
 
 </html>
