@@ -1,4 +1,45 @@
 @charset "UTF-8";
-span{
+
+.red-back {
     background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 25% 45%;
+}
+
+.brackets {
+    font-size: 0.6rem;
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 3.5px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(186, 229, 245);
+    text-align: left;
+    vertical-align: top;
+    border: 2px solid black;
+
+}
+
+td {
+    background-color: rgb(220, 233, 240);
+    border: 2px solid black;
+}
+
+button {
+    background-color: aliceblue;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+input {
+    margin: 7px;
+}
+
+textarea {
+    margin: 7px;
 }
